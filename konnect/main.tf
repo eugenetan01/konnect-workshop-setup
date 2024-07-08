@@ -12,7 +12,7 @@ provider "konnect" {
 }
 
 resource "konnect_gateway_control_plane" "tfdemo1" {
-  name         = "Terraform Control Plane v1"
+  name         = "Hands-on workshop"
   description  = "Sample desc"
   cluster_type = "CLUSTER_TYPE_HYBRID"
   auth_type    = "pinned_client_certs"

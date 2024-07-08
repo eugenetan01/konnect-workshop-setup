@@ -42,14 +42,18 @@ key_file_path      = "./docker/certs/kong-cert.key"
 prometheus_file_path  = "./docker/prometheus.yml"
 ```
 
+__6. Update the docker-compose file with your control plane vars__
+  - lines 33 - 37
+  ![](/img/config.png)
+
 __6. Run the `main.tf` file in the ec2 folder__
 
 ```
 terraform init
 
-terraform plan
+terraform plan -out tfplan
 
-terraform apply
+terraform apply tfplan
 ```
 
 __7. SSH into created ec2 instance called `konnect-hands-on` and run `docker-compose up -d`__

@@ -1,0 +1,13 @@
+ec2/keys/*
+ec2/docker/certs/*
+konnect/terraform.tfvars
+ec2/terraform.tfvars
+ec2/docker/
+
+
+# Local .terraform directories
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*/.terraform.lock.hcl
+ec2/tfplan

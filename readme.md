@@ -19,9 +19,9 @@ terraform apply
 
 __3. Go to Konnect control plane and see the newly created control plane and do the following__
 
-a. Create a data plane node
-b. Copy the crt contents and paste it into a file called certs/kong-cert.crt
-c. Copy the key contents and paste it into a file called certs/kong-cert.key
+  - Create a data plane node
+  - Copy the crt contents and paste it into a file called certs/kong-cert.crt
+  - Copy the key contents and paste it into a file called certs/kong-cert.key
 
 __4. Ensure the aws key is stored in the ec2/keys folder__
 

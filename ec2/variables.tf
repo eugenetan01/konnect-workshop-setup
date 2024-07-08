@@ -1,13 +1,13 @@
 variable "aws_region" {
   description = "The AWS region to deploy resources in"
   type        = string
-  default     = "us-east-1"
+  default     = "ap-southeast-1"
 }
 
 variable "instance_ami" {
   description = "The AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-06d753822bd94c64e"  # Default to Amazon Linux 2 AMI (HVM), SSD Volume Type
+  default     = "ami-06d753822bd94c64e" # Default to Amazon Linux 2 AMI (HVM), SSD Volume Type
 }
 
 variable "instance_type" {

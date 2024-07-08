@@ -1,6 +1,6 @@
 provider "aws" {
   profile = "kong_poweruser-162225303348"
-  region = var.aws_region
+  region  = var.aws_region
 }
 
 resource "aws_instance" "ec2_instance" {
@@ -67,10 +67,10 @@ resource "aws_instance" "ec2_instance" {
     destination = "/home/ec2-user/prometheus.yml"
 
     connection {
-    type        = "ssh"
-    user        = "ec2-user"
-    private_key = file(var.private_key_path)
-    host        = self.public_ip
+      type        = "ssh"
+      user        = "ec2-user"
+      private_key = file(var.private_key_path)
+      host        = self.public_ip
     }
   }
 

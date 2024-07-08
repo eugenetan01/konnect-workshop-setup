@@ -42,7 +42,7 @@ key_file_path      = "./docker/certs/kong-cert.key"
 prometheus_file_path  = "./docker/prometheus.yml"
 ```
 
-__6. Run the `main.tf` file in the ec2 folder
+__6. Run the `main.tf` file in the ec2 folder__
 
 ```
 terraform init
@@ -52,9 +52,9 @@ terraform plan
 terraform apply
 ```
 
-__7. SSH into created ec2 instance called `konnect-hands-on` and run `docker-compose up -d`
+__7. SSH into created ec2 instance called `konnect-hands-on` and run `docker-compose up -d`__
 
-__8. Verify in Konnect control plane that the data plane was initiated and created.
+__8. Verify in Konnect control plane that the data plane was initiated and created.__
 
 # To do:
 

@@ -25,7 +25,7 @@ __3. Go to Konnect control plane and see the newly created control plane and do 
 
 __4. Ensure the aws key is stored in the ec2/keys folder__
 
-a. run `chmod 400 <your-key.pem>` if not yet
+  - run `chmod 400 <your-key.pem>` if not yet
 
 __5. Create a ec2/terraform.tfvars file and add the following__
 
